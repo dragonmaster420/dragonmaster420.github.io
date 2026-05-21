@@ -5,14 +5,19 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f73939;
-  color: #333333;
+  color: #000000;
+
+  background-image: url("img/rooms3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .container {
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background-image: "./img/rooms3.jpg"
+  background-color: rgb(255, 64, 64)
 
 }
 header {
@@ -22,7 +27,8 @@ header {
 }
 header img {
   width: 150px;
-  border-radius: 50%;
+  border: 3px dashed black;
+  border: 3px double black;
 }
 h1 {
   margin: 10px 0 5px;
@@ -30,7 +36,7 @@ h1 {
   margin-bottom: 30px;
 }
 h2 {
-  color: #444444;
+  color: #ffffff;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 5px;
   margin-top: 30px;
@@ -39,7 +45,7 @@ ul {
   padding-left: 20px;
 }
 a {
-  color: #0077cc;
+  color: #000000;
   text-decoration: none;
 }
 a:hover {
