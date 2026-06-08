@@ -120,15 +120,6 @@ a:hover {
 .spacer {
   height: 20px;
 }
-    .gallery {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
 
     .feature-box {
       display: flex;
